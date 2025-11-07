@@ -2,7 +2,7 @@
 
 ## Autor del proyecto
 - Autor: Sebastian Rodriguez R.
-- Sección: 001v
+- Sección: 003A
 - Carrera: Analista Programador Computacional
 - Sede: Online
 ---
