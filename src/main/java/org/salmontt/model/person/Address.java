@@ -1,5 +1,8 @@
-package org.salmontt.model;
+package org.salmontt.model.person;
 
+/**
+ * Address Class
+ */
 public class Address {
     private Region region;
     private String street;
@@ -7,19 +10,39 @@ public class Address {
     private String dept;
     private String villa;
 
+
+    /**
+     * Constructor for simple house
+     * @param region    Region enum
+     * @param street    String to represent street name
+     * @param number    String to represent house number
+     */
     public Address(Region region, String street, String number) {
         this.region = region;
         this.street = street;
         this.number = number;
     }
-
+    /**
+     * Constructor for simple appartment
+     * @param region    Region enum
+     * @param street    String to represent street name
+     * @param number    String to represent house number
+     * @param dept      String to represent appartment number
+     */
     public Address(Region region, String street, String number, String dept) {
         this.region = region;
         this.street = street;
         this.number = number;
         this.dept = dept;
     }
-
+    /**
+     * Constructor for simple appartment in villa
+     * @param region    Region enum
+     * @param street    String to represent street name
+     * @param number    String to represent house number
+     * @param dept      String to represent appartment number
+     * @param villa     String to represent villa name
+     */
     public Address(Region region, String street, String number, String dept, String villa) {
         this.region = region;
         this.street = street;
@@ -71,7 +94,7 @@ public class Address {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder();
-        sb.append("Region=").append(region);
+        sb.append("Región=").append(region);
         sb.append(", Calle='").append(street).append('\'');
         sb.append(", Numero='").append(number).append('\'');
         if (dept != null){

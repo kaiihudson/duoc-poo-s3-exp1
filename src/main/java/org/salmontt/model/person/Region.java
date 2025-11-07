@@ -1,4 +1,4 @@
-package org.salmontt.model;
+package org.salmontt.model.person;
 
 public enum Region {
     A,

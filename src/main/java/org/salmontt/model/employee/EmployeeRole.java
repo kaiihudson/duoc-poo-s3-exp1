@@ -1,4 +1,4 @@
-package org.salmontt.model;
+package org.salmontt.model.employee;
 
 public enum EmployeeRole {
     CEO,
