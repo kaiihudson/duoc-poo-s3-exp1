@@ -1,4 +1,4 @@
-# Evaluacion Sumativa I - Desarrollo Orientado a Objetos I
+# Evaluación Sumativa I - Desarrollo Orientado a Objetos I
 
 ## Autor del proyecto
 - Autor: Sebastian Rodriguez R.
@@ -6,8 +6,8 @@
 - Carrera: Analista Programador Computacional
 - Sede: Online
 ---
-## Descripcion general del sistema
-Este proyecto corresponde a la primera evaluación sumativa para la asignatura de Desarrollo Orientado a Objetos. Se trata de un sistema desarrollado en java, cuyo objetivo es modelar y gestionar entidades referentes a una compañia salmora en Puerto Montt y el como se manejan sus empleados dentro de la misma.
+## Descripción general del sistema.
+>Este proyecto corresponde a la primera evaluación sumativa para la asignatura de Desarrollo Orientado a Objetos. Se trata de un sistema desarrollado en java, cuyo objetivo es modelar y gestionar entidades referentes a una compañia salmora en Puerto Montt y el como se manejan sus empleados dentro de la misma.
 ---
 ## Estructura de Carpetas
 ```
